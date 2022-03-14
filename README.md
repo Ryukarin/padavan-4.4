@@ -66,6 +66,14 @@ This project is based on original rt-n56u with latest mtk 4.4.198 kernel, which 
     # or build toolchain with crosstool-ng
     # ./build_toolchain
     ```
+   - (Optional) change logo
+
+    ```shell
+    cd /opt/rt-n56u/trunk
+    ./change_logo.sh RM2100
+    # The first parameter of the script is the routing model, in trunk/configs/templates/
+    ```
+    
   - Modify template file and start compiling
     ```sh
     cd padavan-4.4/trunk
